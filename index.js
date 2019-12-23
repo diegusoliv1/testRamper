@@ -14,7 +14,7 @@ const options = {
 }
 
 const request = rp(options)
-  .then($ => {
+  .then($ => { 
     console.log("Buscando...");
     const phone = getPhone($)
     const site = getWebsite($)
